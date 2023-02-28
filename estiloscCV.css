@@ -1,0 +1,187 @@
+/*Reset*/
+   html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+   padding: 0;
+   margin: 0;
+   font-size: 100%;
+   font-weight: normal;
+   }
+   table { border-collapse: collapse; border-spacing: 0; }
+   td, th, caption { font-weight: normal; text-align: left; }
+   img, fieldset { border: 0; }
+   ol { padding-left: 1.4em; list-style: decimal; }
+   ul { padding-left: 1.4em; list-style:square; }
+   q:before, q:after { content:''; }
+/*Fin Reset*/
+
+/*FORMATO BARRA LATERAL IZQUIERDA*/
+#barralateral{
+   background-color:rgb(58, 58, 58);
+   /* float: left; */
+   /* width: 200px;
+   height: 1250px; */
+   padding-top: 35px;
+   text-align: center;
+   color: white;
+}
+/*Formato de la foto CV*/
+#fotocv img{
+   background-color: white;
+   padding: 1.5px;
+   border-radius: 100%;
+}
+#fotocv{
+   margin: 0 0 40px 0;
+}
+/*Formato íconos de contacto en B. Lat*/
+#iconos img{
+   width: 35px;
+   height: 30px;
+}
+/* Formato contenedor de íconos */
+#iconos{
+   margin: 0 0 5px 0;
+}
+/*Formato contenedores de info de íconos*/
+address{
+   padding: 0 5px 25px 5px;
+   text-align: center;
+}
+/*Formato Sección Inf. Barra lat. Izq.*/
+#ContInfBarralat {
+   padding: 15px;
+   margin: 5px;
+}
+/*Formato Barra Lat. Izq Datos Website*/
+#Barralat {
+   padding: 45px 0 45px 0;
+   margin: 1px;
+   border-top: solid 2px;
+   text-align: left;
+}
+#Barralat h3{
+   font-family: 'Fredoka One', cursive;
+}
+a{
+   color: aqua;
+}
+/*Formato de barra de nivel de Lenguaje*/
+#tabla{ 
+   margin: 3px 0px 3px 0px;
+   padding: 2px 0px 2px 0px;   
+}
+#tabla td{
+   width: 18px;
+   height: 12px;
+   background-color: rgba(137, 195, 226, 0.993);
+   border: solid rgb(58, 58, 58) 3px;
+}
+#tabla td:nth-of-type(4){
+   background-color: rgb(245, 246, 237);
+}
+#tabla td:nth-of-type(5){
+   background-color: rgb(245, 246, 237);
+}
+#tabla td:nth-of-type(6){
+   background-color: rgb(245, 246, 237);
+}
+/*FIN FORMATO BARRA LATERAL IZQUIERDA*/
+
+/*------------------------------------------------------*/
+
+/*FORMATO SECCIÓN PPAL.
+/*Formato de cada contenedor de título de c/ Zona de Descrip. lado Derecho*/
+article header{
+   margin: 0px 0px 15px 0px;
+}
+
+/*Formato Títulos de contenido Sección Derecha*/
+.titulo{
+   padding-top: 40px;
+   font-family: 'Fredoka One', cursive;
+   font-weight:700PX;
+   text-shadow: rgb(173, 173, 173) 2px 1px 10px;
+   font-size: 1.2em
+}
+/*Formato párrafos*/
+.contArticle{
+   padding-bottom: 40px;
+   border-bottom: solid rgb(58, 58, 58) 3px; /*línea de sep. entre artículos*/
+   font-family: 'Roboto', sans-serif;
+   line-height: 1.7em;
+}
+/*Formato contenedores Listas desordenadas SKILLS y WORK HISTORY*/
+.ListasDesord{
+   padding-left: 30px;
+}
+
+#habilidades{
+  padding-left: 30px;
+}
+
+
+/*Formato Nombre del CV-Encabezado ppal.*/
+h1{
+   padding: 75px 0px 45px 20px;
+   background-color: rgb(203, 218, 241);
+   font-family: 'Montserrat', sans-serif;
+   font-size: 3em;
+   text-align: left;
+}
+/* Eliminación de espacio entre columnas para unir encabezado c/ Barra lat, izq. */
+#colDer{
+   padding-left: 0;
+   padding-right: 0;
+   
+}
+/* Separación del bloque bajo cabecera de la Barra Lat. Izq. */
+#BloqBajoCabecera{
+   padding-left: 30px;
+   padding-right: 30px;
+}
+
+/* CAJA INFORMACIÓN ADICIONAL */
+/* Título de Información Adicional */
+#tituloadInfComp{
+    font-family: 'Fredoka One', cursive;
+    font-weight:700PX;
+    text-shadow: rgb(173, 173, 173) 2px 1px 10px;
+    font-size: 1.1em
+}
+/* Caja contenedora del formulario */
+#contform{
+    padding: 20px 0 5px 0;
+    background-color: rgb(250, 250, 250);
+}
+/* Maximización del ancho de la columna de la tabla que contiene Inform. Adic. */
+#infoadic{
+    width: 100%;
+}
+/* Zona donde se ingresará la Inform. Adic. */
+#textoinfoadic {
+      width: 100%;
+      font-family: 'Roboto', sans-serif;
+   }
+/* Botón Enviar datos adicionales */
+#Enviar{
+    border-radius: 10px;
+    height: 35px;
+    width: 80px;
+    background-color: rgb(203, 218, 241);
+    /* font-family: 'Fredoka One', cursive; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    
+}
+/* FIN CAJA INFORMACIÓN ADICIONAL */
+
+/* Formato footer */
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(203, 218, 241);
+    color: lightslategray;
+  }
+#mailautor{
+    color:lightslategray;
+    text-shadow: rgb(173, 173, 173) 2px 1px 10px;
+}
